@@ -17,9 +17,9 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ & **Password**: _12345678_
-- For security purposes, please change login password, go to **Settings -> Server Config** page then click Save
+- For security purposes, please change login password, go to **Settings -> Server Config** page then click **Save**
 - If MatrixClock screen doesn't blink 5 times & doesn't show time go to **Matrix Driver Config** page & rearrange
-  CS pin according to your schematic then click Save & Reboot. Make sure GPIO13/D7 connected to MOSI & GPIO14/D5 to SCLK 
+  **CS pin** according to your schematic then click Save & Reboot. Make sure GPIO13/D7 connected to MOSI & GPIO14/D5 to SCLK 
 - Set WiFi Network name & password in **Settings -> Station Config** page than click **Save** & **Reboot**
 - The MatrixClock will connect to the WiFi network & Matrix Clock access point will disappear
 - Type in browser http://matrixclock.local/
