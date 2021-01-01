@@ -27,6 +27,8 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 - Get free API key from OpenWeatherMap & put it in coresponding fild in **Settings -> Weather Config** page
   set other filds than click Save & Reboot. MatrixClock will now show weather icon & temperature for 5 seconds every 10 seconds
 
+![alt text][matrixclock_image]
+
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
 [version]:       https://img.shields.io/badge/Version-1.0.0-green.svg
@@ -39,3 +41,4 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 
 [ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
 [flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tools.png
+[matrixclock_image]:          https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock.jpg
