@@ -1,7 +1,7 @@
 [![license-badge][]][license] ![version] [![stars][]][stargazers] [![hit-count][]][count] [![github-issues][]][issues]
 
 # MatrixClock
-This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in series.
+This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in series. Work is in progress & some functions may not work.
 
 ![alt text][ntp_config_page_image]
 
