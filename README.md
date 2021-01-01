@@ -8,15 +8,15 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 - Download Flash Download Tools go to https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
 - In Flash Download Tools set SPI speed 80MHz, SPI Mode QIO, Flash Size 32Mbit
-    - **fw_latest.bin** at address 0x40200000
-    - **fs_latest.bin** at address 0x40400000
+    - **fw_latest.bin** at address **0x40200000**
+    - **fs_latest.bin** at address **0x40400000**
     - select COM port & speed than press Start
 
 ![alt text][flash_download_tools_image]
 
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
-- Put **User Name**: admin & **Password**: 12345678
+- Put **User Name**: _admin_ & **Password**: _12345678_
 - For security purposes, please change login password, go to **Settings -> Server Config** page then click Save
 - If MatrixClock screen doesn't blink 5 times & doesn't show time go to **Matrix Driver Config** page & rearrange
   CS pin according to your schematic then click Save & Reboot. Make sure GPIO13/D7 connected to MOSI & GPIO14/D5 to SCLK 
