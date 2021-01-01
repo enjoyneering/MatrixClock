@@ -25,7 +25,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 - Type in browser http://matrixclock.local/
 - Go to Time or **Settings -> NTP Config** & set your timezone than click **Save** & **Reboot**
 - Get free API key from OpenWeatherMap & put it in coresponding fild in **Settings -> Weather Config** page
-   set other filds than click Save & Reboot. MatrixClock will now show the temperature for 5 seconds every 10 seconds
+  set other filds than click Save & Reboot. MatrixClock will now show weather icon & temperature for 5 seconds every 10 seconds
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
