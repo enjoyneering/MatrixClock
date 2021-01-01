@@ -1,7 +1,9 @@
 [![license-badge][]][license] ![version] [![stars][]][stargazers] [![hit-count][]][count] [![github-issues][]][issues]
 
 # MatrixClock
-This is an NTP clock built on an ESP8266 & five MAX7219 connected in series.
+This is an NTP clock built on an ESP8266 & **five** MAX7219 connected in series.
+
+![alt text][ntp_config_page_image]
 
 - Download Flash Download Tools go to https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
@@ -10,7 +12,7 @@ This is an NTP clock built on an ESP8266 & five MAX7219 connected in series.
     - **fs_latest.bin** at address 0x40400000
     - select COM port & speed than press Start
 
-![alt text][fdt_image]
+![alt text][flash_download_tools_image]
 
 - Connect to MatrixClock WiFi access point
 - Type in browser http://192.168.4.1/
@@ -35,4 +37,5 @@ This is an NTP clock built on an ESP8266 & five MAX7219 connected in series.
 [github-issues]: https://img.shields.io/github/issues/enjoyneering/MatrixClock.svg
 [issues]:        https://github.com/enjoyneering/MatrixClock/issues/
 
-[fdt_image]:     https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tools.png
+[ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
+[flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tools.png
