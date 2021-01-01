@@ -8,7 +8,8 @@ This is an NTP clock built on an ESP8266 & five MAX7219 connected in series.
 - In Flash Download Tools set SPI speed 80MHz, SPI Mode QIO, Flash Size 32Mbit
     - **fw_latest.bin** at address 0x40200000
     - **fs_latest.bin** at address 0x40400000
-    - select COM port & speed than press Start 
+    - select COM port & speed than press Start
+
 ![alt text][fdt_image]
 
 - Connect to MatrixClock WiFi access point
