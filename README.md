@@ -5,7 +5,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 
 ![alt text][ntp_config_page_image]
 
-- Download Flash Download Tools from https://www.espressif.com/en/support/download/other-tools
+- Download Flash Download Tools go to https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
 - In Flash Download Tools set SPI speed 80MHz, SPI Mode QIO, Flash Size 32Mbit
     - **fw_latest.bin** at address **0x40200000**
@@ -19,12 +19,12 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 - Put **User Name**: _admin_ & **Password**: _12345678_
 - For security purposes, please change login password, go to **Settings -> Server Config** page then click **Save**
 - If MatrixClock screen doesn't blink 5 times & doesn't show time go to **Matrix Driver Config** page & rearrange
-  **CS pin** according to your schematic then click **Save** & **Reboot**. Make sure GPIO13/D7 connected to MOSI & GPIO14/D5 to SCLK 
+  **CS pin** according to your schematic then click Save & Reboot. Make sure GPIO13/D7 connected to MOSI & GPIO14/D5 to SCLK 
 - Set WiFi Network name & password in **Settings -> Station Config** page than click **Save** & **Reboot**
 - The MatrixClock will connect to the WiFi network & Matrix Clock access point will disappear
 - Type in browser http://matrixclock.local/
 - Go to Time or **Settings -> NTP Config** & set your timezone than click **Save** & **Reboot**
-- Get free API key from OpenWeatherMap & put it in coresponding fild in **Settings -> Weather Config** page
+- Get free API key from ![OpenWeatherMap] & put it in coresponding fild in **Settings -> Weather Config** page
   set other filds than click **Save** & **Reboot**. MatrixClock will now show weather icon & temperature for 5 seconds every 10 seconds
 
 ![alt text][matrixclock_image]
@@ -42,3 +42,4 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 [ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
 [flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tools.png
 [matrixclock_image]:          https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock.jpg
+[OpenWeatherMap]:             https://home.openweathermap.org/users/sign_up
