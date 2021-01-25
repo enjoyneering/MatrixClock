@@ -5,7 +5,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 connected in serie
 
 ![alt text][ntp_config_page_image]
 
-- Download Flash Download Tools go to https://www.espressif.com/en/support/download/other-tools
+- Download Flash Download Tools from https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
 - In Flash Download Tools set SPI speed 80MHz, SPI Mode QIO, Flash Size 32Mbit
     - **fw_latest.bin** at address **0x40200000**
