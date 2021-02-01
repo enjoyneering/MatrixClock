@@ -24,7 +24,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
 - The MatrixClock will connect to the WiFi network & Matrix Clock access point will disappear
 - Type in browser http://matrixclock.local/
 - Go to Time or **Settings -> NTP Config** & set your timezone than click **Save** & **Reboot**
-- Get free API key from [OpenWeatherMap] & put it in coresponding fild in **Settings -> Weather Config** page,
+- Get free API key from [OpenWeatherMap] & put it in corresponding field on **Settings -> Weather Config** page,
   set other filds than click **Save** & **Reboot**. Matrix Clock now updates the current weather every 2.5 minutes and shows the weather icon and temperature for 5 seconds every 10 seconds.
 
 ![alt text][matrixclock_image]
