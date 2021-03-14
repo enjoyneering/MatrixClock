@@ -8,8 +8,8 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
 - Download Flash Download Tools from https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
 - In Flash Download Tools set SPI speed 80MHz, SPI Mode QIO, Flash Size 32Mbit
-    - **fw_latest.bin** at address **0x40200000**
-    - **fs_latest.bin** at address **0x40400000**
+    - **fw_latest.bin** at address **0x00000**
+    - **fs_latest.bin** at address **0x200000**
     - select COM port & speed than press Start
 
 ![alt text][flash_download_tools_image]
@@ -40,6 +40,6 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
 [issues]:        https://github.com/enjoyneering/MatrixClock/issues/
 
 [ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
-[flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tools.png
+[flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tool.png
 [matrixclock_image]:          https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock.jpg
 [OpenWeatherMap]:             https://home.openweathermap.org/users/sign_up
