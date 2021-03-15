@@ -11,13 +11,13 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
     - **fw_latest.bin** at address **0x00000**
     - **fs_latest.bin** at address **0x200000**
     - connect ESP8266 with 4MB flash to USB, select COM port & speed than press Start
+
+![alt text][flash_download_tools_image]
+
 - Connect **_five_** MAX7219 or AS1106 as follows:
     - GPIO13/D7 to DIN/MOSI
     - GPIO14/D5 to CLK/SCLK
     - GPIO2/D4 to CS (can be changed via the WEB interface after)
-
-![alt text][flash_download_tools_image]
-
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ & **Password**: _12345678_
