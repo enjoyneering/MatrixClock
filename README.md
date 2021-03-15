@@ -10,7 +10,11 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
 - In Flash Download Tools set SPI speed **80MHz**, SPI Mode **QIO**, Flash Size **32Mbit**
     - **fw_latest.bin** at address **0x00000**
     - **fs_latest.bin** at address **0x200000**
-    - select COM port & speed than press Start
+    - connect ESP8266 with 4MB flash to USB, select COM port & speed than press Start
+- Connect **_five_** MAX7219 or AS1106 as follows:
+    - GPIO13/D7 to DIN/MOSI
+    - GPIO14/D5 to CLK/SCLK
+    - GPIO2/D4 to CS (can be changed via the WEB interface after)
 
 ![alt text][flash_download_tools_image]
 
