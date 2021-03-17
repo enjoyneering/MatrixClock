@@ -7,7 +7,11 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
 
 - Download Flash Download Tools from https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
-- In Flash Download Tools set SPI speed **80MHz**, SPI Mode **QIO**, Flash Size **32Mbit**, **DoNotChgBin**
+- In Flash Download Tools:
+    - set SPI speed **80MHz**
+    - set SPI Mode **QIO**
+    - set Flash Size **32Mbit**
+    - check **DoNotChgBin**
     - **fw_latest.bin** at address **0x00000**
     - **fs_latest.bin** at address **0x200000**
     - connect any ESP8266 with **4MB** flash to USB, select COM port & baud rate than press **Start**
