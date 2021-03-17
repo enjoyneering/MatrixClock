@@ -1,7 +1,7 @@
 [![license-badge][]][license] ![version] [![stars][]][stargazers] [![hit-count][]][count] [![github-issues][]][issues]
 
 # MatrixClock
-This is an NTP clock built on an ESP8266 & **_five_** MAX7219, MAX7221 or MAX6950, MAX6951 or AS1106, AS1107 connected in series. Work is in progress & some functions may not work.
+This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connected in series. Work is in progress & some functions may not work.
 
 **Warning:** Clear browser cache after any firmware update.
 
@@ -20,10 +20,12 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219, MAX7221 or MAX695
 
 ![alt text][flash_download_tools_image]
 
-- Connect **_five_** MAX7219 or analog as follows:
+- Connect **_five_** MAX7219 or MAX7221 as follows:
     - GPIO13/D7 to DIN/MOSI
     - GPIO14/D5 to CLK/SCLK
     - GPIO2/D4 to CS (can be changed via the WEB interface after)
+    - Vcc to +4.0v .. 5.0v
+    - Gnd to Gnd
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ & **Password**: _12345678_
