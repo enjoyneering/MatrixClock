@@ -1,7 +1,7 @@
 [![license-badge][]][license] ![version] [![stars][]][stargazers] [![hit-count][]][count] [![github-issues][]][issues]
 
 # MatrixClock
-This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connected in series. Work is in progress & some functions may not work.
+This is an NTP clock built on an ESP8266 & **_five_** MAX7219, MAX7221 or MAX6950, MAX6951 or AS1106, AS1107 connected in series. Work is in progress & some functions may not work.
 
 **Warning:** Clear browser cache after any firmware update.
 
@@ -20,7 +20,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or AS1106 connecte
 
 ![alt text][flash_download_tools_image]
 
-- Connect **_five_** MAX7219 or AS1106 as follows:
+- Connect **_five_** MAX7219 or analog as follows:
     - GPIO13/D7 to DIN/MOSI
     - GPIO14/D5 to CLK/SCLK
     - GPIO2/D4 to CS (can be changed via the WEB interface after)
