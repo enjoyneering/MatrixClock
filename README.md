@@ -24,7 +24,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - GPIO2/D4 to CS (can be changed via the WEB interface after)
     - Vcc to +4.0v .. 5.0v
     - Gnd to Gnd
-    - recommend changing the resistor R1 from 10K to 59K (for 2.5 V/10mA LEDs) or 25K (for 2.5V/20 mA LEDs)
+    - recommend changing the resistor R1 from 10K to 59K (for 2.5V/10mA LEDs) or 25K (for 2.5V/20 mA LEDs)
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ & **Password**: _12345678_
