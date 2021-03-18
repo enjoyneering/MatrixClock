@@ -3,7 +3,7 @@
 # MatrixClock
 This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connected in series. Work is in progress & some functions may not work.
 
-**Warning:** Clear browser cache after any firmware update.
+**Warning:** Clear browser cache after firmware update.
 
 ![alt text][ntp_config_page_image]
 
