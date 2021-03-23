@@ -42,7 +42,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
-[version]:       https://img.shields.io/badge/Version-1.0.0-green.svg
+[version]:       https://img.shields.io/badge/Version-1.1.0-green.svg
 [stars]:         https://img.shields.io/github/stars/enjoyneering/MatrixClock.svg
 [stargazers]:    https://github.com/enjoyneering/MatrixClock/stargazers
 [hit-count]:     https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fenjoyneering%2FMatrixClock&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
