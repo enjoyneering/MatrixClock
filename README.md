@@ -63,5 +63,5 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 [ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
 [flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tool.png
 [matrixclock_image]:          https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock.jpg
-[matrixclock_schematic:]       https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock_schematic.png
+[matrixclock_schematic]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock_schematic.png
 [OpenWeatherMap]:             https://home.openweathermap.org/users/sign_up
