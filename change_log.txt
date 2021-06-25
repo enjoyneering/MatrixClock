@@ -14,5 +14,15 @@
   - added NTP connection check to show correct time at startup
   - added support for ESP8266 hardware SPI SS(CS) pin in MAX72xx driver
 
-Known issues:
-  - dim after sunset does not function yet
+2.0.0
+  - default CS pin changed to GPIO15/D8
+  - dim after sunset fix
+  - deprecated WiFi.onEvent() function replaced with modern WiFiEventHandler
+  - improved NTP connection detection at startup
+  - added Arduino IDE OTA progress on matrix screen
+  - added fs & fw update progress on matrix screen
+  - updated ArduinoJson to v6.18.0
+  - added support for DFPlayer Mini
+  - added hourly chime
+  - added daily alarm
+  - added simple mp3 player with saving current track in RTC memory
