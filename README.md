@@ -21,10 +21,21 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 - Connect **_five_** MAX7219 or MAX7221 as follows:
     - GPIO13/D7 to DIN/MOSI
     - GPIO14/D5 to CLK/SCLK
-    - GPIO2/D4 to CS (can be changed via the WEB interface after)
-    - Vcc to +4.0v .. 5.0v
+    - GPIO15/D8 to CS (can be changed via the WEB interface after)
+    - Vcc to +4.0v .. +5.0v
     - Gnd to Gnd
     - recommend changing the resistor R1 from 10K to 59K (for 2.5V/10mA LEDs) or 25K (for 2.5V/20 mA LEDs)
+- Connect DFPlayer Mini as follows:
+    - GPIO5/D1 to RX
+    - GPIO4/D2 to TX
+    - Vcc to +3.2v .. +5.0v
+    - Gnd to Gnd
+    - 2W/4ohm speaker to SPK1 & SPK2
+    - if you hear loud noise, add a 1K resistor between GPIO4/D2 and TX pins
+    - recommended to set the jumper to the STBY-> BUSY position
+
+![alt text][matrixclock_schematic]
+
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ & **Password**: _12345678_
@@ -42,7 +53,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
-[version]:       https://img.shields.io/badge/Version-1.1.0-green.svg
+[version]:       https://img.shields.io/badge/Version-2.0.0-green.svg
 [stars]:         https://img.shields.io/github/stars/enjoyneering/MatrixClock.svg
 [stargazers]:    https://github.com/enjoyneering/MatrixClock/stargazers
 [hit-count]:     https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fenjoyneering%2FMatrixClock&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
@@ -52,4 +63,5 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 [ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
 [flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tool.png
 [matrixclock_image]:          https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock.jpg
+[matrixclock_schematic]       https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock_schematic.png
 [OpenWeatherMap]:             https://home.openweathermap.org/users/sign_up
