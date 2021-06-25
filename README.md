@@ -34,7 +34,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - if you hear loud noise, add a 1K resistor between GPIO4/D2 and TX pins
     - recommended to set the jumper to the STBY-> BUSY position
 
-<img src="https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock_schematic.png">
+![alt text][matrixclock_schematic]
 
 - Connect to **MatrixClock** WiFi access point
 - Type in browser http://192.168.4.1/
@@ -63,5 +63,5 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 [ntp_config_page_image]:      https://github.com/enjoyneering/MatrixClock/blob/main/images/ntp_config_page.png
 [flash_download_tools_image]: https://github.com/enjoyneering/MatrixClock/blob/main/images/flash_download_tool.png
 [matrixclock_image]:          https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock.jpg
-[matrixclock_schematic]       https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock_schematic.png
+[matrixclock_schematic:]       https://github.com/enjoyneering/MatrixClock/blob/main/images/matrixclock_schematic.png
 [OpenWeatherMap]:             https://home.openweathermap.org/users/sign_up
