@@ -31,7 +31,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - Vcc to +3.2v .. +5.0v
     - Gnd to Gnd
     - 2W/4ohm speaker to SPK1 & SPK2
-    - put files from **mp3_sd_root** folder to SD card
+    - put files from **mp3_sd_root** folder to SD card up to 36GB formatted as FAT16 or FAT32
     - if you hear loud noise, add a 1K resistor between GPIO4/D2 and TX pins
     - recommended to set the jumper to the STBY-> BUSY position
 
