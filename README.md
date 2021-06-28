@@ -52,7 +52,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 
 ![alt text][matrixclock_image]
 
-[license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+[license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%202.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
 [version]:       https://img.shields.io/badge/Version-2.0.0-green.svg
 [stars]:         https://img.shields.io/github/stars/enjoyneering/MatrixClock.svg
