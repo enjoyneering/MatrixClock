@@ -1,7 +1,7 @@
 [![license-badge][]][license] ![version] [![stars][]][stargazers] ![hit-count] [![github-issues][]][issues]
 
 # MatrixClock
-This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connected in series. Work is in progress & some functions may not work.
+This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connected in series.
 
 ![alt text][ntp_config_page_image]
 
@@ -22,13 +22,13 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - GPIO13/D7 to DIN/MOSI
     - GPIO14/D5 to CLK/SCLK
     - GPIO15/D8 to CS (can be changed via the WEB interface after)
-    - Vcc to +4.0v .. +5.0v
+    - Vcc to +4.0v..+5.0v
     - Gnd to Gnd
     - recommend changing the resistor R1 from 10K to 59K (for 2.5V/10mA LEDs) or 25K (for 2.5V/20mA LEDs)
 - Connect DFPlayer Mini as follows:
     - GPIO5/D1 to RX
     - GPIO4/D2 to TX
-    - Vcc to +3.2v .. +5.0v
+    - Vcc to +3.2v..+5.0v
     - Gnd to Gnd
     - 2W/4ohm speaker to SPK1 & SPK2
     - put files from **mp3_sd_root** folder to SD card up to 36GB formatted as FAT16 or FAT32
