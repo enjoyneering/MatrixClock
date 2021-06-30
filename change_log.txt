@@ -1,5 +1,6 @@
 1.0.0
   - initial release
+
 1.1.0
   - updated Bootstrap to v3.4.1
   - fixed fs & fw update via HTML page
@@ -26,3 +27,9 @@
   - added hourly chime
   - added daily alarm
   - added simple mp3 player with saving current track in RTC memory
+
+2.0.1
+  - updated Arduino ESP8266 to v3.0.1
+  - improved speed of serializeing JSON files to LittleFS
+  - improved calculation for daily alarm & dim after sunset
+  - improved fs & fw update speed
