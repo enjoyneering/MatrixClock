@@ -45,3 +45,4 @@ version descriptor
   - added gradually increasing alarm volume
   - improved server speed & behavior
   - fixed ESP8266 hardware CS pin in MAX72xx driver
+  - fixed dim after sunset detection
