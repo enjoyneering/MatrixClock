@@ -1,3 +1,9 @@
+version descriptor
+  - x.y.z
+    - x = major update, many new features
+    - y = small update, a couple of new features & improvements
+    - z = bug fixes & improvements to existing code
+
 1.0.0
   - initial release
 
@@ -33,3 +39,9 @@
   - improved speed of serializeing JSON files to LittleFS
   - improved calculation for daily alarm & dim after sunset
   - improved fs & fw update speed
+
+2.2.0
+  - updated ArduinoJson to v6.18.1
+  - added gradually increasing alarm volume
+  - improved server speed & behavior
+  - fixed ESP8266 hardware CS pin in MAX72xx driver
