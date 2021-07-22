@@ -50,10 +50,10 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 - Get free API key from [OpenWeatherMap] & put it in corresponding field on **Settings -> Weather Config** page,
   set other filds than click **Save** & **Reboot**. Matrix Clock now updates the current weather every 2.5 minutes and shows the weather icon and temperature for 5 seconds every 10 seconds.
 
-![alt text][matrixclock_image]
-
 Used library:
 - [DFPlayer](https://github.com/enjoyneering/DFPlayer)
+
+![alt text][matrixclock_image]
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-nd/4.0/
