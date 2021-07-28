@@ -47,7 +47,7 @@ version descriptor
   - fixed ESP8266 hardware CS pin in MAX72xx driver
 
 2.3.0
-  - added 3 fonts for matrix screen, available via marix driver HTML page
+  - added 3 fonts for matrix screen, available via matrix driver HTML page
   - improved auto dim task & fixed dim after sunset detection
   - shutdown drivers afrer update or during reboot to save some power
   - updated ArduinoJson to v6.18.3
