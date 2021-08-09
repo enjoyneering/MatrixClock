@@ -49,5 +49,5 @@ version descriptor
 2.3.0
   - added 3 fonts for matrix screen, available via matrix driver HTML page
   - improved auto dim task & fixed dim after sunset detection
-  - shutdown drivers afrer update or during reboot to save some power
+  - shutdown drivers after update or during reboot to save some power
   - updated ArduinoJson to v6.18.3
