@@ -51,3 +51,8 @@ version descriptor
   - improved auto dim task & fixed dim after sunset detection
   - shutdown drivers after update or during reboot to save some power
   - updated ArduinoJson to v6.18.3
+  
+  2.3.1
+  - updated Arduino ESP8266 to v3.0.2
+  - added font array boundary check in MAX72xx driver to prevent ESP8266 from crashing
+  - some minor improvements
