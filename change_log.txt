@@ -56,3 +56,13 @@ version descriptor
   - updated Arduino ESP8266 to v3.0.2
   - added font array boundary check in MAX72xx driver to prevent ESP8266 from crashing
   - some minor improvements
+  
+  2.3.2
+  - improved DFPlayer Mini enable/disable behavior at startup
+  - improved current track read from RTC memory, extra safety checks added
+  - favicon.ico size reduced from 6KB to 2KB
+  - updated js.cookie to v3.0.1
+  - lwIP version added to chip_info.html page
+  - heap fragmentation reduced
+  - server speed increased, Keep Alive header removed
+  - fixed player info return nothing if module is in sleep mode
