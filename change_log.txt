@@ -66,3 +66,7 @@ version descriptor
   - heap fragmentation reduced
   - server speed increased, Keep Alive header removed
   - fixed player info return nothing if module is in sleep mode
+  
+  2.3.3
+  - improved server behavior
+  - mp3 player html and server command logic changed, code size reduced & free heap increased
