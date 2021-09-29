@@ -70,3 +70,11 @@ version descriptor
   2.3.3
   - improved server behavior
   - mp3 player html and server command logic changed, code size reduced & free heap increased
+  
+  2.4.0
+  - not perfect but better mobile view for alarm HTML
+  - updated ArduinoJson to v6.18.14
+  - another 256-bytes freed, free heap increased
+  - UART & SPI speed added to chip_info.html page
+  - removed annoying "disconnecting reason" UART log
+  - fixed bug with connection drop in softAP mode
