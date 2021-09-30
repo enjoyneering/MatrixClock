@@ -34,6 +34,8 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - put files from **mp3_sd_root** folder to SD card, up to 36GB formatted as FAT16 or FAT32
     - if you hear loud noise, add a 1K resistor between GPIO4/D2 and TX pins
     - recommended to set the jumper to the STBY-> BUSY position
+- Voltage Logger
+    - to show the correct voltage, change the resistor R1 on the WeMos D1 Mini from 220K to 470K, then connect pin A0 to pin 3V3
 
 ![alt text][matrixclock_schematic]
 
