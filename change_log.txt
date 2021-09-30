@@ -78,3 +78,6 @@ version descriptor
   - UART & SPI speed added to chip_info.html page
   - removed annoying "disconnecting reason" UART log
   - fixed bug with connection drop in softAP mode
+
+2.4.1
+  - second attempt to fix bug with connection drop in softAP mode
