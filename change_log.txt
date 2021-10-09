@@ -81,3 +81,8 @@ version descriptor
 
 2.4.1
   - second attempt to fix bug with connection drop in softAP mode
+
+2.4.2
+  - redesigned mobile look for all HTML pages
+  - updated ArduinoJson to v6.18.15
+  - some minor code improvements
