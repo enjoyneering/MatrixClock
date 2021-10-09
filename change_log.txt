@@ -84,5 +84,5 @@ version descriptor
 
 2.4.2
   - redesigned mobile look for all HTML pages
-  - updated ArduinoJson to v6.18.15
+  - updated ArduinoJson to v6.18.5
   - some minor code improvements
