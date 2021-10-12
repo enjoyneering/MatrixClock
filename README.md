@@ -39,7 +39,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 
 ![alt text][matrixclock_schematic]
 
-- Connect to **MatrixClock** WiFi access point
+- Connect to **MatrixClock** WiFi access point using password **12345678**
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ & **Password**: _12345678_
 - For security purposes, please change login password, go to **Settings -> Server Config** page then click **Save**
