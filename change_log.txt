@@ -86,3 +86,7 @@ version descriptor
   - redesigned mobile look for all HTML pages
   - updated ArduinoJson to v6.18.5
   - some minor code improvements
+
+2.4.3
+ - now OpenWeatherMap update interval is 2.5 minutes + random 1sec..10sec, to prevent peak loads on OpenWeatherMap servers
+ - fixed mobile look for whether & file system HTML pages
