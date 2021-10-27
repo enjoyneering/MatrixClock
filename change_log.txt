@@ -90,3 +90,9 @@ version descriptor
 2.4.3
  - now OpenWeatherMap update interval is 2.5 minutes + random 1sec..10sec, to prevent peak loads on OpenWeatherMap servers
  - fixed mobile look for whether & file system HTML pages
+
+2.5.0
+ - if internet is present jQuery is loaded from Google CDN (Content Delivery Network) & fallback to local if MatrixClock is offline
+ - improved MP3 player page behavior if Serial MP3 module disabled
+ - added current track info to MP3 Player Config page 
+ - added 3 clock colons styles, helps reduce annoying blinking at night
