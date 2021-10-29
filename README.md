@@ -46,9 +46,9 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 - If MatrixClock screen doesn't blink 5 times & doesn't show time go to **Matrix Driver Config** page & rearrange
   **CS pin** according to your schematic then click **Save** & **Reboot**. Make sure GPIO13/D7 connected to DIN/MOSI & GPIO14/D5 to CLK/SCLK 
 - Set WiFi Network name & password in **Settings -> Station Config** page than click **Save** & **Reboot**
-- The MatrixClock will connect to the WiFi network & Matrix Clock access point will disappear
+- The MatrixClock will connect to the WiFi network & **MatrixClock** access point will disappear
 - Type in browser http://matrixclock.local/ (use IP address instead of mDNS on Android & Win7 devices, address can be found in the UART logs at speed 115200bps)
-- Go to Time or **Settings -> NTP Config** & set your timezone than click **Save** & **Reboot**
+- Go to **Time** or **Settings -> NTP Config** & set your timezone than click **Save** & **Reboot**
 - Get free API key from [OpenWeatherMap] & put it in corresponding field on **Settings -> Weather Config** page,
   set other filds than click **Save** & **Reboot**. Matrix Clock now updates the current weather every 2.5 minutes and shows the weather icon and temperature for 5 seconds every 10 seconds.
 
