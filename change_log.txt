@@ -96,3 +96,8 @@ version descriptor
  - improved MP3 player page behavior if Serial MP3 module disabled
  - added current track info to MP3 Player Config page 
  - added 3 clock colons styles, helps reduce annoying blinking at night
+
+2.5.1
+ - added degree symbol for Score Board Slim font
+ - clock colon animation changed, now all 3 have similar movement pattern
+ - fixed typo on HTML page
