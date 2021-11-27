@@ -101,3 +101,8 @@ version descriptor
  - added degree symbol for Score Board Slim font
  - clock colon animation changed, now all 3 have similar movement pattern
  - fixed typo on HTML page
+
+2.5.2
+ - changed temperature display around 0C, now shows +0C if temperature +0.1C...+0.55C & -0C if temperature 0.0C..-0.55C
+ - fixed mobile view for screen resolution 360 x 800
+ - updated time zone list & fixed UTC +12:00 behavior
