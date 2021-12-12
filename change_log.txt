@@ -110,4 +110,4 @@ version descriptor
 2.6.0
  - improved STA connection lost detection and softAP mode
  - loading jQuery from Google CDN removed due to poor performance in softAP mode
- - empty username and password check on server config html page
+ - empty username and password check added on server config page
