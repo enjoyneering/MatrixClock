@@ -33,6 +33,11 @@ version descriptor
   - added hourly chime
   - added daily alarm
   - added simple mp3 player with saving current track in RTC memory
+  
+2.6.0
+ - improved STA connection lost detection and softAP mode
+ - loding jQuery from Google CDN removed due to poor performance in softAP mode
+ - empty username and password check on server config html page
 
 2.0.1
   - updated Arduino ESP8266 to v3.0.1
