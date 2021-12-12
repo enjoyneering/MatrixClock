@@ -111,3 +111,8 @@ version descriptor
  - changed temperature display around 0C, now shows +0C if temperature +0.1C...+0.55C & -0C if temperature 0.0C..-0.55C
  - fixed mobile view for screen resolution 360 x 800
  - updated time zone list & fixed UTC +12:00 behavior
+
+2.6.0
+ - improved STA connection lost detection and softAP mode
+ - loding jQuery from Google CDN removed due to poor performance in softAP mode
+ - empty username and password check on server config html page
