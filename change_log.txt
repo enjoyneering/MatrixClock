@@ -103,7 +103,7 @@ version descriptor
  - fixed typo on HTML page
 
 2.5.2
- - changed temperature display around 0C, now shows +0C if temperature +0.1C...+0.55C, -0C if temperature 0.01C..-0.55C & 0C if temperature 0.00C
+ - changed temperature display around 0C, now shows +0C if temperature +0.10C...+0.55C, -0C if temperature -0.10C..-0.55C & 0C if temperature 0.00C
  - fixed mobile view for screen resolution 360 x 800
  - updated time zone list & fixed UTC +12:00 behavior
 
