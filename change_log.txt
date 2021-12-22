@@ -111,3 +111,10 @@ version descriptor
  - improved STA connection lost detection and softAP mode
  - loading jQuery from Google CDN removed due to poor performance in softAP mode
  - empty username and password check added on server config page
+
+2.6.1
+ - better uart mp3 player behavior during OTA update
+ - better OTA & mDNS behavior during reboot
+ - direct control of GPIO port for SPI CS pin, faster display output
+ - signal quality added to ESP8266 info page
+ - updated DFPlayer to v2.0.0, added support for DFPlayer Mini HW-247A, MP3-TF-16P V3.0 (GD3200B, MH2024K)
