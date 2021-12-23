@@ -51,13 +51,13 @@ version descriptor
   - improved auto dim task & fixed dim after sunset detection
   - shutdown drivers after update or during reboot to save some power
   - updated ArduinoJson to v6.18.3
-  
-  2.3.1
+
+2.3.1
   - updated Arduino ESP8266 to v3.0.2
   - added font array boundary check in MAX72xx driver to prevent ESP8266 from crashing
   - some minor improvements
-  
-  2.3.2
+
+2.3.2
   - improved DFPlayer Mini enable/disable behavior at startup
   - improved current track read from RTC memory, extra safety checks added
   - favicon.ico size reduced from 6KB to 2KB
@@ -65,13 +65,13 @@ version descriptor
   - lwIP version added to chip_info.html page
   - heap fragmentation reduced
   - server speed increased, Keep Alive header removed
-  - fixed player info return nothing if module is in sleep mode
-  
-  2.3.3
+  - fixed player info, return nothing if module is in sleep mode
+
+2.3.3
   - improved server behavior
   - mp3 player html and server command logic changed, code size reduced & free heap increased
-  
-  2.4.0
+
+2.4.0
   - not perfect but better mobile view for alarm HTML
   - updated ArduinoJson to v6.18.14
   - another 256-bytes freed, free heap increased
@@ -84,11 +84,11 @@ version descriptor
 
 2.4.2
   - redesigned mobile look for all HTML pages
-  - updated ArduinoJson to v6.18.5
+  - updated ArduinoJson to v6.18.15
   - some minor code improvements
 
 2.4.3
- - now OpenWeatherMap update interval is 2.5 minutes + random 1sec..10sec, to prevent peak loads on OpenWeatherMap servers
+ - now OpenWeatherMap update interval is 2.5 minutes + random 1sec..10sec, to prevent peak loads on OpenWeatherMap servers after power outages
  - fixed mobile look for whether & file system HTML pages
 
 2.5.0
@@ -116,5 +116,10 @@ version descriptor
  - better uart mp3 player behavior during OTA update
  - better OTA & mDNS behavior during reboot
  - direct control of GPIO port for SPI CS pin, faster display output
- - signal quality added to ESP8266 info page
+ - wifi signal quality added to ESP8266 info page, 0%..100%
  - updated DFPlayer to v2.0.0, added support for DFPlayer Mini HW-247A, MP3-TF-16P V3.0 (GD3200B, MH2024K)
+
+2.6.2
+ - MH2024K removed from list, trial failed
+ - fixed a bug in the process of initializing the player after adding new modules
+ - software update page has been redesigned to better understand step-by-step process
