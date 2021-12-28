@@ -25,7 +25,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - Vcc to +4.0v..+5.0v
     - Gnd to Gnd
     - recommend changing the resistor R1 from 10K to 59K (for 2.5V/10mA LEDs) or to 25K (for 2.5V/20mA LEDs)
-- Connect DFPlayer Mini as follows:
+- Connect DFPlayer Mini (YX5200, YX5300, JL AAxxxx or GD3200B) as follows:
     - GPIO5/D1 to RX
     - GPIO4/D2 to TX
     - Vcc to +3.2v..+5.0v
