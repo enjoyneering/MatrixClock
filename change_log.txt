@@ -84,7 +84,7 @@ version descriptor
 
 2.4.2
   - redesigned mobile look for all HTML pages
-  - updated ArduinoJson to v6.18.15
+  - ArduinoJson updated to v6.18.15
   - some minor code improvements
 
 2.4.3
@@ -123,3 +123,10 @@ version descriptor
  - MH2024K removed from list, trial failed
  - fixed a bug in the process of initializing the player after adding new modules
  - software update page has been redesigned to better understand step-by-step process
+
+3.0.0
+ - module type added to player info page
+ - hourly chime from..to behavior changed, any combinations are possible
+ - fixed occasional crash of hourly chime for YX5200/YX5300/JL AAxxxx from Jieli
+ - Arduino ESP8266 updated to latest development Core, lwIP: v2.1.3 + dhcp fixes & GCC 10.3 Bugfix 1
+ - ArduinoJson updated to v6.19.1
