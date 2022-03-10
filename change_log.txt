@@ -133,3 +133,14 @@ version descriptor
 
 3.0.1
  - fixed bug in from..to behavior
+
+3.1.0
+ - DFPlayer Mini updated to v2.1.0
+ - added password (same as server password) for OTA via Arduino IDE, no password required for OTA via HTML page
+ - Arduino ESP8266 updated to latest development Core, fix Stream.read() & more
+ - heap usage & fragmentation reduced
+ - server speed increased
+ - empty OpenWeatherMap API key check added
+ - OpenWeatherMap URL build speed increased
+ - ArduinoJson updated to v6.19.2
+ - modal window added to upload HTML page
