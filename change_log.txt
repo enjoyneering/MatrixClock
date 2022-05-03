@@ -148,3 +148,11 @@ version descriptor
 3.1.1
  - fixed OpenWeatherMap additional HTTP request headers
  - ArduinoJson updated to v6.19.3
+
+3.1.2
+ - heap usage & fragmentation reduced
+ - ArduinoJson updated to v6.19.4
+ - better OpenWeatherMap connection error detection
+ - LittleFS version added to chip_info.html page
+ - Arduino ESP8266 updated to latest development core, LittleFS: v2.5 + EspSoftwareSerial: v6.16.1 & more ...
+ - default NTP sync interval changed from 30 minutes to 60 minutes
