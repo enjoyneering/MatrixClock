@@ -5,6 +5,19 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 
 ![alt text][ntp_config_page_image]
 
+- automatic synchronization with NTP servers or manually with browser time
+- automatic Daylight Saving Time
+- three fonts to choose from
+- show weather from OpenWeatherMap (for 5 seconds, every 10 seconds)
+- control the brightness of the display by sunrise/sunset or from 8am to 8pm if there is no OpenWeatherMap account
+- web interface Bootstrap + jQuery
+- updating the firmware and file system image via the web interface
+- DFPlayer Mini as alarm clock and hourly chime
+- individual volume for alarm and hourly chime
+- hourly chime with a choice of 10 tracks and an interval setting
+- daily alarm clock with a choice of 10 tracks and a smooth increase in volume
+- bonus, a simple mp3 player with saving the current track number in RTC memory
+
 - Download **Flash Download Tools** from https://www.espressif.com/en/support/download/other-tools
 - Download MatrixClock *.bin files
 - In Flash Download Tools:
