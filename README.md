@@ -12,8 +12,8 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 - control the brightness of the display by sunrise/sunset or from 8am to 8pm if there is no OpenWeatherMap account
 - web interface Bootstrap + jQuery
 - updating the firmware and file system image via the web interface
-- DFPlayer Mini as alarm clock and hourly chime
-- individual volume for alarm and hourly chime
+- DFPlayer Mini as alarm and hourly chime
+- individual volume for daily alarm and hourly chime
 - hourly chime with a choice of 10 tracks and an interval setting
 - daily alarm clock with a choice of 10 tracks and a smooth increase in volume
 - bonus, a simple mp3 player with saving the current track number in RTC memory
