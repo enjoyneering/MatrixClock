@@ -17,7 +17,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 - hourly chime with a choice of 10 tracks and an interval setting
 - daily alarm clock with a choice of 10 tracks and a smooth increase in volume
 - bonus, a simple mp3 player with saving the current track number in RTC memory
-- bonus, OpenWeatherMap recorder (logger) with [charts] (https://github.com/enjoyneering/MatrixClock/blob/main/images/recorder_data_page.png)
+- bonus, OpenWeatherMap recorder (logger) with [charts](https://github.com/enjoyneering/MatrixClock/blob/main/images/recorder_data_page.png)
 
 **The software is provided "AS IS" without warranty of any kind**
 
