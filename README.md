@@ -21,7 +21,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 
 **The software is provided "AS IS" without warranty of any kind**
 
-- Download **Flash Download Tools** from https://www.espressif.com/en/support/download/other-tools
+- Download **Flash Download Tools** from [here](https://www.espressif.com/en/support/download/other-tools)
 - Download MatrixClock *.bin files
 - In Flash Download Tools:
     - set SPI speed **80MHz**
