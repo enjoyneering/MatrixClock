@@ -156,3 +156,10 @@ version descriptor
  - LittleFS version added to chip_info.html page
  - Arduino ESP8266 updated to latest development core, LittleFS: v2.5 + EspSoftwareSerial: v6.16.1 & more ...
  - default NTP sync interval changed from 30 minutes to 60 minutes
+
+4.0.0
+ - Arduino ESP8266 updated to latest development 3.0.2-118-gdc6b15e3
+ - reduced the amount of data transmitted over SPI bus
+ - OpenWeatherMap JSON deserialization speed increased
+ - improved STA connection lost detection and softAP mode
+ - added OpenWeatherMap recorder (logger)
