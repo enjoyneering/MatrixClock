@@ -17,6 +17,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
 - hourly chime with a choice of 10 tracks and an interval setting
 - daily alarm clock with a choice of 10 tracks and a smooth increase in volume
 - bonus, a simple mp3 player with saving the current track number in RTC memory
+- bonus, OpenWeatherMap recorder (logger) with [charts] (https://github.com/enjoyneering/MatrixClock/blob/main/images/recorder_data_page.png)
 
 **The software is provided "AS IS" without warranty of any kind**
 
@@ -49,7 +50,7 @@ This is an NTP clock built on an ESP8266 & **_five_** MAX7219 or MAX7221 connect
     - put files from **mp3_sd_root** folder to SD card, up to 36GB formatted as FAT16 or FAT32
     - if you hear loud noise, add a 1K resistor between GPIO4/D2 and TX pins
     - recommended to set the jumper to the STBY-> BUSY position
-- Voltage Logger
+- Voltage
     - to show the correct voltage, change the resistor R1 on the WeMos D1 Mini from 220K to 470K, then connect pin A0 to pin 3V3
 
 ![alt text][matrixclock_schematic]
@@ -74,7 +75,7 @@ Used library:
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-nd/4.0/
-[version]:       https://img.shields.io/badge/Version-3.1.2-green.svg
+[version]:       https://img.shields.io/badge/Version-4.0.0-green.svg
 [stars]:         https://img.shields.io/github/stars/enjoyneering/MatrixClock.svg
 [stargazers]:    https://github.com/enjoyneering/MatrixClock/stargazers
 [hit-count]:     https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fenjoyneering%2FMatrixClock&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
