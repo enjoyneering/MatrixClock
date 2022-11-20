@@ -163,3 +163,10 @@ version descriptor
  - OpenWeatherMap JSON deserialization speed increased
  - improved STA connection lost detection and softAP mode
  - added OpenWeatherMap recorder (logger)
+
+4.1.0
+- backup NTP time to RTC memory every minute and retrieved it during the boot, if ESP8266 crashes and there is no stable internet connection at boot
+- current weather added to HTML menu bar
+- server stability increased
+- Arduino ESP8266 updated to latest development core
+- alarm ticker code changed, Ticker.h overflow workaround no longer needed
