@@ -170,3 +170,11 @@ version descriptor
 - server stability increased
 - Arduino ESP8266 updated to latest development core
 - alarm ticker code changed, Ticker.h overflow workaround no longer needed
+
+4.2.0
+- huge server stability improvement, uptime without problems for months
+- server speed increased by 30%..50%
+- ArduinoJson updated to v6.21.0
+- Arduino ESP8266 updated to v3.1.2
+- fixed random missing OpenWeatherMap response
+- fixed weather value 255 around logo icon
