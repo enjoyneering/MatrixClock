@@ -178,3 +178,4 @@ version descriptor
 - Arduino ESP8266 updated to v3.1.2
 - fixed random missing OpenWeatherMap response
 - fixed weather value 255 around logo icon
+- DFPlayer library updated, improved behavior for GD3200B chip
