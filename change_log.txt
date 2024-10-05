@@ -179,3 +179,9 @@ version descriptor
 - fixed random missing OpenWeatherMap response
 - fixed weather value 255 around logo icon
 - DFPlayer library updated, improved behavior for GD3200B chip
+
+4.3.0
+- ArduinoJson updated to v7.2.0
+- fix OpenWeatherMap to display data
+- server speed increased
+- added sleep settings in STA mode, may help with unstable connections
