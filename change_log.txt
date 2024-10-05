@@ -182,6 +182,6 @@ version descriptor
 
 4.3.0
 - ArduinoJson updated to v7.2.0
-- fix OpenWeatherMap to display data
+- fix OpenWeatherMap to display data, try by city name or city ID & choose the one that works
 - server speed increased
 - added sleep settings in STA mode, may help with unstable connections
